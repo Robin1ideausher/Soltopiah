@@ -1,0 +1,26 @@
+@import "./styles//tailwindfiles.css";
+@import "./styles/buttons.css";
+@import "./styles/phone-input.css";
+
+
+
+.booking-table-wrapper::-webkit-scrollbar {
+    width:3px;
+    height:5px;
+}
+.booking-table-wrapper::-webkit-scrollbar-track {
+    background-color:#F0F2F5;
+    /* border-bottom-left-radius: 8px; */
+    /* border-bottom-right-radius: 8px; */
+}
+.booking-table-wrapper::-webkit-scrollbar-thumb {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color:#2E6A5E;
+}
+/* .booking-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: black;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}  */
