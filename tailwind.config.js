@@ -30,15 +30,20 @@ module.exports = {
         bg: "#E9EBF7",
         pink: "#F0C2C9",
         deepBlue: "#393E59",
-        userblack:"#17161D"
+        userblack: "#17161D",
       },
       gridTemplateColumns: {
-        userTable : "208px 151px 172px 168px 150px 150px 150px",
-        guideTable : "308px 251px 272px 268px 150px 200px 150px",
-        contentTable : "308px 350px 172px 268px 150px 200px 150px 80px",
-        categoryTable : "228px 320px 382px 168px 150px 250px 50px",
-        quickreadsTable : "320px 320px 300px 300px 250px 50px",
-
+        userTable: "208px 151px 172px 168px 150px 150px 150px",
+        guideTable: "208px 351px 272px 268px 180px 200px 80px",
+        contentTable: "308px 350px 172px 268px 150px 200px 150px 80px",
+        categoryTable: "228px 320px 382px 168px 150px 250px 50px",
+        quickreadsTable: "320px 320px 300px 300px 250px 50px",
+        calmnessTable: "400px 200px 200px 200px 300px 200px 50px",
+        subscriptionTable : "450px 200px 220px 220px 220px 200px 50px",
+        communityTable : "300px 350px 220px 220px 220px 200px 50px",
+        revenueTable : "200px 350px 250px 250px 250px 180px 50px",
+        notificationTable : "250px 300px 300px 250px 400px 50px",
+        badgeTable : "150px 300px 300px 250px 500px 50px",
       },
 
       fontSize: {

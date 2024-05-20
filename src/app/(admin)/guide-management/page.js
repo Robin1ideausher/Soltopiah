@@ -12,9 +12,9 @@ function page() {
       </p>
       <div>
         <SearchBar />
-        <div className="w-full overflow-x-scroll booking-table-wrapper">
-          <div className="bg-[#F0F2F5] w-fit">
-            <div className="items-center grid grid-cols-guideTable p-4">
+        <div className="w-full overflow-x-scroll booking-table-wrapper ">
+          <div className="bg-[#F0F2F5] min-w-fit w-full ">
+            <div className="items-center grid grid-cols-guideTable p-4 justify-between">
               <span className="text-[#666576] font-sans font-normal text-sm">
                 User Id
               </span>
@@ -36,8 +36,8 @@ function page() {
               <span className="text-[#666576] font-sans font-normal text-sm"></span>
             </div>
           </div>
-          <div className="flex flex-col bg-white w-fit ">
-            <div className=" grid grid-cols-guideTable border-b border-[#E9E9EC] items-center p-4">
+          <div className="flex flex-col bg-white min-w-fit w-full ">
+            <div className=" grid grid-cols-guideTable border-b border-[#E9E9EC] items-center justify-between p-4">
               <span className="text-userblack text-base font-semibold font-sans">
                 1231
               </span>
@@ -68,7 +68,7 @@ function page() {
                 <MenuDots />
               </button>
             </div>
-            <div className=" grid grid-cols-guideTable border-b border-[#E9E9EC] items-center p-4">
+            <div className=" grid grid-cols-guideTable border-b border-[#E9E9EC] items-center justify-between p-4">
               <span className="text-userblack text-base font-semibold font-sans">
                 1231
               </span>
@@ -99,7 +99,7 @@ function page() {
                 <MenuDots />
               </button>
             </div>
-            <div className=" grid grid-cols-guideTable border-b border-[#E9E9EC] items-center p-4">
+            <div className=" grid grid-cols-guideTable border-b border-[#E9E9EC] items-center justify-between p-4">
               <span className="text-userblack text-base font-semibold font-sans">
                 1231
               </span>

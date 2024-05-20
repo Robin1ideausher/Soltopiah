@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
       <div className="w-[300px] ">
         <Sidebar></Sidebar>
       </div>
-      <div className="w-full overflow-x-hidden  flex flex-col">
+      <div className="w-full overflow-x-hidden h-screen flex flex-col">
         <Header />
         <div className="py-7 px-6 w-full">{children}</div>
       </div>

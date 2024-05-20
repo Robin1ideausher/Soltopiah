@@ -23,8 +23,8 @@ function page() {
       <div className="flex flex-col">
         <AddSearchBar />
         <div className="w-full overflow-x-scroll booking-table-wrapper">
-          <div className="bg-[#F0F2F5] w-fit">
-            <div className="items-center grid grid-cols-quickreadsTable p-4">
+          <div className="bg-[#F0F2F5] min-w-fit w-full">
+            <div className="items-center grid grid-cols-quickreadsTable justify-between p-4">
               <span className="text-[#666576] font-sans font-normal text-sm">
                 Title
               </span>
@@ -45,8 +45,8 @@ function page() {
               <span className="text-[#666576] font-sans font-normal text-sm"></span>
             </div>
           </div>
-          <div className="flex flex-col bg-white w-fit ">
-            <div className=" grid grid-cols-quickreadsTable border-b border-[#E9E9EC] items-center p-4">
+          <div className="flex flex-col bg-white min-w-fit w-full">
+            <div className=" grid grid-cols-quickreadsTable justify-between border-b border-[#E9E9EC] items-center p-4">
               <span className="text-userblack font-sans font-semibold text-sm">
                 {" "}
                 14 days meditation challenge
@@ -68,7 +68,7 @@ function page() {
                 <MenuDots />
               </button>
             </div>
-            <div className=" grid grid-cols-quickreadsTable border-b border-[#E9E9EC] items-center p-4">
+            <div className=" grid grid-cols-quickreadsTable justify-between border-b border-[#E9E9EC] items-center p-4">
               <span className="text-userblack font-sans font-semibold text-sm">
                 {" "}
                 14 days meditation challenge
@@ -90,7 +90,7 @@ function page() {
                 <MenuDots />
               </button>
             </div>
-            <div className=" grid grid-cols-quickreadsTable border-b border-[#E9E9EC] items-center p-4">
+            <div className=" grid grid-cols-quickreadsTable justify-between border-b border-[#E9E9EC] items-center p-4">
               <span className="text-userblack font-sans font-semibold text-sm">
                 {" "}
                 14 days meditation challenge
